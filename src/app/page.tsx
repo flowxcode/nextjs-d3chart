@@ -1,4 +1,5 @@
 import Image from "next/image";
+import D3Chart from "@/components/D3Chart";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
           </li>
           <li className="tracking-[-.01em]">
             Save and see your changes instantly.
+            this is a change
           </li>
         </ol>
 
@@ -50,6 +52,8 @@ export default function Home() {
             Read our docs
           </a>
         </div>
+        {/* Add the D3 chart here */}
+        <D3Chart />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
