@@ -11,7 +11,7 @@
          const svg = d3.select(chartRef.current);
          const width = 400;
          const height = 200;
-         const data = [10, 20, 39, 21, 50];
+         const data = [10, 20, 39, 21, 50, 39, 21, 50, 39, 21, 60, 70, 71];
 
          const xScale = d3.scaleBand()
            .domain(data.map((d, i) => i.toString()))
